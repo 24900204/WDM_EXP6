@@ -1,5 +1,7 @@
 ### EX6 Information Retrieval Using Vector Space Model in Python
-### DATE: 
+### DATE: 27/11/2026
+### Name: Rithika L
+### Register Number: 212224230231
 ### AIM: To implement Information Retrieval Using Vector Space Model in Python.
 ### Description: 
 <div align = "justify">
@@ -50,7 +52,7 @@ sklearn to demonstrate Information Retrieval using the Vector Space Model.
     tfidf_matrix = tfidf_vectorizer.fit_transform(preprocessed_docs.values())
 
 ###### Calculate cosine similarity between query and documents
-    def search(query, tfidf_matrix, tfidf_vectorizer):
+  def search(query, tfidf_matrix, tfidf_vectorizer):
         //TYPE YOUR CODE HERE
 
 ###### Get input from user
@@ -73,5 +75,11 @@ sklearn to demonstrate Information Retrieval using the Vector Space Model.
     print("The highest rank cosine score is:", highest_rank_score)
 
 ### Output:
+<img width="932" height="762" alt="Screenshot 2026-11-20 143205" src="https://github.com/user-attachments/assets/033fa2ee-0b68-4aa2-bcc8-440bd9048137" />
+
+<img width="931" height="502" alt="Screenshot 2026-11-20 143227" src="https://github.com/user-attachments/assets/05a9c841-017d-477a-8993-3fab84b06a0b" />
+
+<img width="936" height="437" alt="Screenshot 2026-11-20 143245" src="https://github.com/user-attachments/assets/b793d42a-46f8-4aaf-b948-102798acd439" />
 
 ### Result:
+Thus, Retrieval Using Vector Space Model in Python is successfully verified.
